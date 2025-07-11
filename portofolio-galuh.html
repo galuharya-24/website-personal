@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galuh Arya | Portofolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <style>
+    body {
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
+    }
+    .glass {
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 1rem;
+      padding: 2rem;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-start pt-20 px-4">
+
+  <!-- Hero -->
+  <section class="text-center mb-10" data-aos="fade-down">
+    <img src="foto-profil.jpeg" alt="Foto Profil" class="w-32 h-32 mx-auto rounded-full border-4 border-white shadow-lg mb-4">
+    <h1 id="typewriter" class="text-4xl font-bold"></h1>
+    <p class="mt-2 text-lg">IT Support | Teknisi Jaringan | Lulusan TKJ</p>
+    <a href="CV&Sertifikat.pdf" download class="mt-4 inline-block px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Unduh CV</a>
+  </section>
+
+  <!-- Tentang Saya -->
+  <section class="glass max-w-3xl w-full mb-8" data-aos="fade-right">
+    <h2 class="text-2xl font-bold mb-2">Tentang Saya</h2>
+    <p>Saya lulusan SMK Darma Siswa 1 Sidoarjo jurusan Teknik Komputer dan Jaringan. Berpengalaman magang di anugrahpratama.com dan memiliki sertifikasi MTCNA. Saya siap bekerja di bidang IT Support atau teknisi jaringan dengan disiplin, tanggung jawab, dan semangat belajar tinggi.</p>
+  </section>
+
+  <!-- Keahlian -->
+  <section class="glass max-w-3xl w-full mb-8" data-aos="fade-up">
+    <h2 class="text-2xl font-bold mb-2">Keahlian</h2>
+    <ul class="list-disc list-inside">
+      <li>Merakit dan memperbaiki komputer & laptop</li>
+      <li>Instalasi software & OS</li>
+      <li>Konfigurasi dasar MikroTik</li>
+      <li>Instalasi CCTV</li>
+      <li>Krimping kabel UTP/LAN</li>
+      <li>Troubleshooting jaringan dan hardware</li>
+    </ul>
+  </section>
+
+  <!-- Sertifikat -->
+  <section class="glass max-w-3xl w-full mb-8" data-aos="fade-left">
+    <h2 class="text-2xl font-bold mb-2">Sertifikat</h2>
+    <p>MikroTik Certified Network Associate (MTCNA)</p>
+    <p>ID Sertifikat: 2507NA9653 (Valid sampai 2028)</p>
+    <a href="sertifikat-MTCNA.pdf" download class="text-blue-300 underline">Unduh Sertifikat</a>
+  </section>
+
+  <!-- Pengalaman Magang -->
+  <section class="glass max-w-3xl w-full mb-8" data-aos="zoom-in">
+    <h2 class="text-2xl font-bold mb-2">Pengalaman Magang</h2>
+    <p><strong>anugrahpratama.com (2022 - 2025)</strong></p>
+    <ul class="list-disc list-inside">
+      <li>Merakit dan memperbaiki perangkat komputer</li>
+      <li>Install software & OS</li>
+      <li>Konfigurasi MikroTik dasar</li>
+      <li>Instalasi CCTV</li>
+      <li>Bekerja sama dalam tim teknisi</li>
+    </ul>
+  </section>
+
+  <!-- Kontak -->
+  <section class="glass max-w-3xl w-full mb-12 text-center" data-aos="fade-up">
+    <h2 class="text-2xl font-bold mb-2">Kontak</h2>
+    <p>Email: <a href="mailto:galuharya999@gmail.com" class="underline text-blue-300">galuharya999@gmail.com</a></p>
+    <p>Telepon: 0852-3625-3009</p>
+    <p>Alamat: Tambakrejo, Waru, Sidoarjo</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/galuh-arya-2aa633374" class="underline text-blue-300">linkedin.com/in/galuh-arya</a></p>
+  </section>
+
+  <footer class="text-center text-sm text-white py-4">
+    © 2025 Galuh Arya. Dibuat dengan ❤
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    new Typewriter('#typewriter', {
+      strings: ['Galuh Arya Anggara Putra'],
+      autoStart: true,
+      loop: true,
+    });
+  </script>
+</body>
+</html>
